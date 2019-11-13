@@ -1,0 +1,108 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+body {
+ background-color: #eee;
+ font-family: 'Poppins', sans-serif;
+}
+/* Container */
+
+.container {
+ max-width: 1000px;
+ background-color: rgb(64, 141, 97);
+ margin: 0 auto;
+ padding: 20px;
+}
+header {
+
+}
+.profile-image {
+ width: 140px;
+ height: 160px;
+ border: 3px solid rgb(179, 172, 172);
+ border-radius: 50%;
+ float: left;
+}
+.header-info {
+ float: left;
+ padding: 30px;
+}
+h1,h2,h3,h4,h5,h6 {
+ color: #182c42;
+}
+.contact-info {
+ float: right;
+ padding: 30px;
+}
+.contact-info a {
+text-decoration: none;
+color: #141d1f;
+font-weight: bold;
+}
+.contact-info a:hover {
+color: rgb(145, 69, 56);
+}
+.clear-div {
+ clear: both;
+}
+hr {
+ border: 3px solid black;
+ width: 100%;
+ margin: 10px auto;
+ border-bottom: none;
+}
+
+/* Carrier Section start */
+#Personal section {
+
+}
+.content {
+
+}
+.left-div {
+float: left;
+width: 30%;
+}
+.right-div {
+ float: left;
+ width: 70%;
+}
+
+.common-hr {
+ border: 1px solid black;
+ border-bottom: none;
+ width: 100%;
+ margin: 20px auto;
+}
+/* Table Style */
+
+.table-style {
+ width: 100%;
+ border-collapse: collapse;
+}
+.table-style td, .table-style th {
+ border: 1px solid rgb(127, 168, 149);
+ padding: 8px;
+}
+.table-style tr :hover {
+ background-color: #ddd;
+}
+/* -------------
+-----footer -----
+-------------- */
+.footer-style {
+ background-color: black;
+ color: white;
+ text-align: center;
+ padding: 15px;
+}
+.footer-style a {
+ color: white;
+ text-decoration: none;
+ margin: 20px;
+}
+.footer-style p {
+ color: white;
+ margin-top: 20px;
+}
